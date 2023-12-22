@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .logo{
     width:100px;
@@ -13,6 +14,9 @@
 .menu ul li a{
     text-decoration: none;
     color:grey;
+}
+.menu ul li a:hover{
+    color:black;
 }
 .cart{
     position: relative;
@@ -27,4 +31,33 @@
     right:20px;
     text-align: center;
     color:white;
+}
+.shop{
+    background-color: rgb(247, 180, 37);
+    color:white;
+    padding:8px 15px;
+    border: none;
+}
+.shop a{
+    text-decoration: none;
+    color:white;
+}
+.shop:hover{
+    background-color: rgb(226, 156, 3);
+}
+.shop-bg{
+    width:300px;
+    height:300px;
+    background-color: rgb(247, 180, 37);
+    position: relative;
+    border-radius: 5px;
+}
+.shop-image{
+    width:300px;
+    height:300px;
+    z-index: 1;
+    position: absolute;
+    top:40px;
+    left:-40px;
+    border-radius: 5px;
 }
