@@ -23,7 +23,7 @@
 }
 .item{
     position: absolute;
-    background-color: rgb(252, 97, 239);
+    background-color: rgb(226, 156, 3);
     height:23px;
     width:23px;
     border-radius: 50%;
@@ -60,4 +60,76 @@
     top:40px;
     left:-40px;
     border-radius: 5px;
+}
+.option1{
+    background-color: rgb(226, 156, 3);
+    padding:15px 25px;
+    border-radius: 5px;
+    color:white;
+}
+.double{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.double1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(226, 156, 3);
+    padding:15px;
+    border-radius: 5px;
+    color:white;
+}
+.double2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(226, 156, 3);
+    padding:15px;
+    border-radius: 5px;
+    color:white;
+}
+.option3{
+    background-color: rgb(226, 156, 3);
+    padding:15px 25px;
+    border-radius: 5px;
+    color:white;
+}
+.t-img{
+    width:100px;
+    height:100px;
+}
+.trust{
+    width:100%;
+    background-color: rgb(238, 236, 236);
+}
+.get{
+    border: none;
+    background-color: rgb(251, 180, 14);
+    padding:10px 15px;
+    color:white;
+}
+.color{
+    position: relative;
+    background-color: rgb(1, 3, 32);
+}
+.footer-top{
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:15px 15px;
+    position: absolute;
+    top:-25px;
+    left:200px;
+}
+.error-btn{
+    border: none;
+    padding:10px 15px;
+    background-color: rgb(247, 180, 37);
+    color:white;
 }
