@@ -125,11 +125,28 @@
     padding:15px 15px;
     position: absolute;
     top:-25px;
-    left:200px;
+    left:100px;
 }
 .error-btn{
     border: none;
     padding:10px 15px;
     background-color: rgb(247, 180, 37);
     color:white;
+}
+.feature{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.feature-img{
+    width:200px;
+    height:150px;
+}
+.card-body a{
+    text-decoration: none;
+    color:grey;
+}
+.card-data{
+    display: flex;
+    justify-content: space-between;
 }
